@@ -1,0 +1,34 @@
+.internalLayout {
+  .content {
+    width: 100%;
+    max-width: 1400px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+
+  .logo {
+    background-color: #f0f6f9;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      height: 26px;
+    }
+  }
+
+  .aside {
+    background-color: #fff;
+    width: 100px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .titlePage {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+}

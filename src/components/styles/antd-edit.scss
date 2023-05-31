@@ -1,0 +1,15 @@
+:where(.css-dev-only-do-not-override-1irxp6p).ant-form-item {
+  margin-bottom: 12px;
+}
+:where(.css-dev-only-do-not-override-1irxp6p).ant-divider-horizontal {
+  margin: 16px 0;
+}
+.ant-form-item-label {
+  padding: 0 0 4px;
+}
+
+.ant-form-item {
+  &.no-margin-bottom {
+    margin-bottom: 0;
+  }
+}

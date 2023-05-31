@@ -5,4 +5,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  .content {
+    width: 100%;
+    min-width: 280px;
+    padding-top: 16px;
+    position: relative;
+  }
+
+  .logo {
+    height: 48px;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+  }
 }
